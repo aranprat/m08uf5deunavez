@@ -1,0 +1,46 @@
+body{
+    background-color: lemonchiffon;
+    margin-left: 50px;
+    margin-top: 0px; 
+}
+h1{
+    color:lightcoral;
+    font-size: 30px;
+    text-align: center; 
+}
+p{
+ color: burlywood;  
+ font-weight: bold
+}
+b{
+color: chocolate
+}
+.limon { 
+color: pink 
+}
+/* id va con una almohadilla */
+#idrosa {  
+    color: palevioletred;
+    font-size: 18px;
+}
+table,td,th{
+border-color: palevioletred;
+border-width: 2px; 
+border-style: ridge;
+border-collapse: collapse; /* eliminar doble linea*/
+}
+
+td{
+    color:chocolate;
+}
+#rojoid
+{ 
+    color: rebeccapurple;
+
+}
+th{
+    background-color: gray;
+}
+img{
+
+}

@@ -1,0 +1,65 @@
+table{
+border-color: black;
+border-width: 2px; 
+border-style: ridge;
+border-collapse: collapse; /* eliminar doble linea*/
+}
+h1{
+    color:black;
+    font-size: 30px;
+    text-align: left; 
+}
+.negrita {
+color: black;
+font-weight: bolder;
+}
+table,td,th{ 
+border-color: grey;
+border-width: 2px; 
+border-style: ridge;
+border-collapse: collapse; /* eliminar doble linea*/
+}
+.subrayado { 
+    text-decoration: underline; 
+    color: black;
+font-weight: bolder;
+}
+th{
+    background-color: rgb(219, 219, 219);
+    border-width: 4px; 
+}
+.m08{
+border-width: 2px; 
+border-style: ridge;
+background-color: gray;
+text-align:center;
+
+}
+.m07{
+    border-width: 2px; 
+    border-style: ridge;
+    background-color: red;
+    text-align:center;
+ }
+.m06{
+        border-width: 2px; 
+        border-style: ridge;
+        background-color:sandybrown;
+        text-align:center;
+}
+.m04{
+    border-width: 2px; 
+    border-style: ridge;
+    background-color: aqua;
+    text-align:center;
+}
+.m010{
+    border-width: 2px; 
+    border-style: ridge;
+    background-color: salmon;
+    text-align:center;
+}
+.patio {
+ text-align:center;
+ font-size: 20px;
+}
