@@ -1,0 +1,70 @@
+<!DOCTYPE html >
+<html lang="es">
+
+    <head>
+        <title>Títol de la pestanya</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="formularioo.css"/>
+    </head>
+    <body>
+        <h1>Formulari</h1>
+        <form action="form.html" method="post" enctype="multipart/form-data">
+            <fieldset class="info" >
+                    <legend >Info Bàsica</legend>
+                <label >Nombre:</label>
+                <br/>
+                <input type="text"  value="" placeholder="tu nombre"/>
+                <br/>
+                <br/>
+                <label>Altura en centimetros:</label> 
+                <input type="number"  value="230"/>
+                <br/>
+                <label >email:</label>
+                <input type="email"  value="tuemail@dominio.com"/>
+                <br/><label for="id_date">Fecha de nacimiento:</label>
+                <br/>
+                <input type="date" id="id_date" name="n_date" value="2020-11-30"/>
+            </fieldset>
+            <fieldset class="nacio">
+                    <legend>Nacionalidad</legend>
+                
+            
+                <input type="radio" id="id_radio1" name="aficiones" value="a" />Espanyola
+                <input type="radio" id="id_radio2" name="aficiones" value="c"/>Comunitari(UE)
+                <input type="radio" id="id_radio3" name="aficiones" value="g"/>No comunitari
+                <br/>
+               
+            </fieldset>
+              
+                <fieldset class="estudis" >
+                         <legend> <label for="id_select">Estudis:</label></legend>
+                <select id="id_select" name="n_select">
+                    <option>GM</option>
+                    <option>encara a la E.S.O</option>
+                    <option>GS</option>
+                    <option>BATX</option>
+                </select>
+            </fieldset>
+            <fieldset class="idiomas">
+
+                <legend> <label>Idiomas :</label></legend>
+            <input type="checkbox" id="id_checkbox1" name="paises[]" value="a" checked/>Català
+            <input type="checkbox" id="id_checkbox2" name="paises[]" value="c"/>Castellà
+            <input type="checkbox" id="id_checkbox3" name="paises[]" value="g"/>Anglès
+            <input type="checkbox" id="id_checkbox4" name="paises[]" value="t"/>Chinés
+            <input type="checkbox" id="id_checkbox5" name="paises[]" value="t"/>Italià
+        </fieldset>
+        <fieldset class="send">
+
+                <input type="submit" id="id_submit" name="n_submit" value="ENVIAR"/>                   
+                <input type="reset" id="id_reset" name="n_reset" value="BORRAR"/>
+
+            </fieldset>
+        
+       </form>
+       <img src="../imagenes/validacionhtmlformulario.png " alt="validacon ex 7" height="200"/>
+       <img src="../imagenes/validacioncssformu.png " alt="validacon ex 7" height="200"/>
+
+    </body>
+</html>

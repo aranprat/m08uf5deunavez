@@ -1,0 +1,36 @@
+
+legend{ 
+    text-decoration:underline;
+    font-weight: bold
+    }
+
+    .info{
+    border-width: 5px; 
+    border-style: ridge;
+    background-color: salmon;
+    font-size: large
+    }
+.nacio{
+        border-width: 5px; 
+        border-style: ridge;
+        background-color: greenyellow;
+        font-size:large
+        }
+        .estudis{
+            border-width: 5px; 
+            border-style: ridge;
+            background-color: pink;
+            font-size: large
+            }
+            .idiomas{
+                border-width: 5px; 
+                border-style: ridge;
+                background-color: cadetblue;
+                font-size: large
+                }
+                .send{
+                    border-width: 5px; 
+                    border-style: ridge;
+                    background-color: grey;
+                    font-size:large ;
+                    }
