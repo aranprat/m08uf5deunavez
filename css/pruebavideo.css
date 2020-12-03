@@ -1,0 +1,44 @@
+/*definir la fuente pero no la utilizo*/
+@font-face {
+    font-family: aranletra;
+    src:url(../fuentes/ShadowsIntoLight-Regular.ttf);
+}
+/*tamaño video*/
+
+video{
+    width: 320px; 
+    height: 315 ;
+    }
+    /*tamaño video personalizado s*/
+
+#leon{
+    width: 320px; 
+    height: 315 ;
+     }
+
+ iframe{
+    width: 320px; 
+    height: 315 ;
+        }
+
+    /*aqui esta configurada la fuente , arriba tambien hay que configurarla*/
+
+h2{     
+    font-family: aranletra, cursive;
+} 
+    /*para que cuando toques encima de los titulos h2 se vea en azul*/
+
+h2:hover{
+    color:yellow;
+    background-color: blue
+} 
+    /*color del link*/
+
+a:link {
+    color:blue;
+  }
+    /*para que cuando hayas entrado al link salga en lila*/
+
+a:visited {
+    color:blueviolet;
+  }

@@ -1,0 +1,116 @@
+
+/*definir la fuente pero no la utilizo*/
+@font-face {
+    font-family: aranletra;
+    src:url(../fuentes/ShadowsIntoLight-Regular.ttf);
+
+    
+}
+.negritajett {
+    color: black;
+    font-weight: bolder;
+
+}
+
+table{ 
+    border-color: grey;
+    width: 50%;
+    height: 300px;    
+    border-style: ridge;
+    border-collapse: collapse; /* eliminar doble linea*/
+    }
+
+.videojett{
+    width: 1000px; 
+    height: 1000px ;
+}
+
+.jett {
+    width: 330px; 
+    height: 240px ;
+}
+.descripcionjett 
+{
+    font-size: x-large;
+    background-color:darkred;
+}
+
+.reyna {
+    color: black;
+    font-weight: bolder;
+    width: 330px; 
+    height: 240px ;
+}
+.descripcionjett,.jetttitle {
+    font-family: aranletra, cursive;
+}
+
+.descripcionreyna{
+    background-color:purple;
+}
+iframe{
+    width: 1000px; 
+    height: 1000px ;
+        }
+    
+.descripcionreyna,.reynatitle {
+    font-family: 'Major Mono Display',cursive;
+}
+
+.cypher{
+    color: black;
+    font-weight: bolder;
+    width: 330px; 
+    height: 240px ;
+}
+.descripciocypher {
+    background-color:burlywood;
+
+}
+
+.descripciocypher,.cyphertitle {
+    font-family: 'Syne Mono', monospace,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.sage{
+    color: black;
+    font-weight: bolder;
+    width: 330px; 
+    height: 240px ;
+}
+.descripciosage {
+    background-color:burlywood;
+
+}
+
+.descripciosage,.sagetitle {
+    font-family: 'Big Shoulders Stencil Display', cursive;
+
+}
+.descripciosage{
+    margin-top: 25px;
+    padding-top: 0%;
+    font-size: x-large;
+    background-color:lightblue;
+
+}
+h1{
+    text-align:center;
+    text-decoration-line: underline;
+}
+h2:hover{
+    color:yellow;
+    background-color: blue
+} 
+
+a:link {
+    color:blue;
+  }
+
+a:visited {
+    color:blueviolet;
+  }
+  .h2personalizado{
+    text-decoration-line: underline;
+}
