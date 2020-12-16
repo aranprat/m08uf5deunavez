@@ -1,0 +1,31 @@
+div {
+   border: 2px dotted black;
+   width: 40%;
+ }
+  
+ #imatge {
+    border: 2px solid red;
+    width: 100%;
+ }
+/*flotante 
+.cuadro1{   
+    float: right;
+ }
+ .cuadro2{   
+    float: left;
+ }
+ .cuadro3{   
+    float: right;
+ }
+ .cuadro4{   
+    float: ;
+
+ }
+ .cuadro5{   
+    float: right;
+ }
+*/ 
+}
+div{   
+   float: right;
+}

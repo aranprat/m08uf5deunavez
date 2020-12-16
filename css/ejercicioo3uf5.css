@@ -1,0 +1,15 @@
+table{
+    border-color: black;
+    border-width: 2px; 
+    border-style: ridge;
+    border-collapse: collapse; /* eliminar doble linea*/ }
+    table,td,th{ 
+        border-color: grey;
+        border-width: 2px; 
+        border-style: ridge;
+        border-collapse: collapse; /* eliminar doble linea*/
+        }
+        h2:hover{
+            color:yellow;
+            background-color: black
+        } 

@@ -1,0 +1,48 @@
+
+
+table,td,th,tr{ 
+    border-color: black;
+    border-width: 20px; 
+    border-style:ridge;
+    border-collapse: collapse; /* eliminar doble linea*/
+
+}
+.celdabeix{
+    border-width: 20px; 
+    border-style: ridge;
+    background-color:beige;
+    text-align:center;
+}
+.celdaazul{
+    border-width: 20px; 
+    background-color:blue;
+    text-align:center;
+}
+.celdaroja{
+    border-width: 20px; 
+    border-style: ridge;
+    background-color: red;
+    text-align:center;
+}
+.celdagris{
+    border-width: 20px; 
+    border-style: ridge;
+    background-color: gray;
+    text-align:center;
+}
+.celdatuquesa{
+    border-width: 20px; 
+    border-style: ridge;
+    background-color: turquoise;
+    text-align:center;
+}
+.celdralila{
+    border-width: 20px; 
+    border-style: ridge;
+    background-color:purple;
+    text-align:center;
+}
+.subrayado { 
+    color: black;
+    text-align: center;
+}

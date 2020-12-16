@@ -1,0 +1,85 @@
+#imatge{
+    height: 600px; 
+    width: 600px;
+    
+}
+.cuadro1{
+    background-color: olivedrab;
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+.cuadro2{
+    background-color: yellowgreen;
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+.cuadro3{
+    background-color: black;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.cuadro4{
+    background-color: yellowgreen;
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.cuadro5{
+    background-color: olivedrab;
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.cuadro6{
+    background-color: yellowgreen;
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.cuadro7{
+    background-color:  black;
+    float: right;
+    width: 200px;
+    height: 200px;
+}
+.cuadro9{
+    background-color:  yellowgreen;
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+
+.cuadro8{
+    background-color: olivedrab;
+    float: left;
+    width: 400px;
+    height: 100px;
+}
+
+
+.cuadro10{
+    background-color: olivedrab;
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+.cuadro11{
+    background-color: yellowgreen;
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+.cuadro12{
+    background-color: olivedrab;
+    float: right;
+    width: 200px;
+    height: 100px;
+}
+
+
+
+/* width: 200px;
+    height: 178px; */

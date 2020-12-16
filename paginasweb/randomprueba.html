@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <title>form</title>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+        <h1>form</h1>
+        <form action="form.html" method="get" enctype="multipart/form-data">
+            <fieldset>
+                <legend>inputs</legend>
+ 
+                <h2>text</h2>
+                <label for="id_text">Input text:</label>
+                <input type="text" id="id_text" name="n_text" value="Default text" placeholder="Input text" required/>
+ 
+                <h2>number</h2>
+                <label for="id_number">Input number:</label>
+                <input type="number" id="id_number" name="n_number" value="0"/>
+ 
+                <h2>email</h2>
+                <label for="id_email">Input email:</label>
+                <input type="email" id="id_email" name="n_email" value="default@default"/>
+ 
+                <h2>url</h2>
+                <label for="id_url">Input url:</label>
+                <input type="url" id="id_url" name="n_url" value="http://default"/>
+ 
+                <h2>radio</h2>
+                <label>Click option:</label>
+                <input type="radio" id="id_radio1" name="n_radio" value="a" checked/>adenine
+                <input type="radio" id="id_radio2" name="n_radio" value="c"/>cytosine
+                <input type="radio" id="id_radio3" name="n_radio" value="g"/>guanine
+                <input type="radio" id="id_radio4" name="n_radio" value="t"/>thymine
+ 
+                <h2>checkbox</h2>
+                <label>Click multiple options:</label>
+                <input type="checkbox" id="id_checkbox1" name="n_checkbox[]" value="a" checked/>adenine
+                <input type="checkbox" id="id_checkbox2" name="n_checkbox[]" value="c"/>cytosine
+                <input type="checkbox" id="id_checkbox3" name="n_checkbox[]" value="g"/>guanine
+                <input type="checkbox" id="id_checkbox4" name="n_checkbox[]" value="t"/>thymine
+ 
+                <h2>hidden</h2>
+                <input type="hidden" id="id_hidden" name="n_hidden" value="Default text"/>
+ 
+                <h2>password</h2>
+                <label for="id_password">Input password:</label>
+                <input type="password" id="id_password" name="n_password"/>
+ 
+                <h2>date</h2>
+                <label for="id_date">Input date:</label>
+                <input type="date" id="id_date" name="n_date" value="2017-12-31"/>
+ 
+                <h2>select</h2>
+                <label for="id_select">Select option:</label>
+                <select id="id_select" name="n_select">
+                    <option value="default" selected>Default text</option>
+                    <option value="a">adenine</option>
+                    <option value="c">cytosine</option>
+                    <option value="g">guanine</option>
+                    <option value="t">thymine</option>
+                </select>
+ 
+                <h2>select multiple</h2>
+                <label for="id_multiselect">Select multiple options:</label>
+                <select multiple id="id_multiselect" name="n_multiselect[]">
+                    <option value="a" selected="selected">adenine</option>
+                    <option value="c" selected="selected">cytosine</option>
+                    <option value="g">guanine</option>
+                    <option value="t">thymine</option>
+                </select>
+ 
+                <h2>textarea</h2>
+                <label for="id_textarea">Input text:</label>
+                <textarea id="id_textarea" name="n_textarea">Default text</textarea>
+ 
+                <h2>file</h2>
+                <label for="id_file">Input file:</label>
+                <input type="file" id="id_file" name="n_file"/>
+            </fieldset>
+            <fieldset>
+                <legend>buttons</legend>
+ 
+                <h2>submit</h2>
+                <input type="submit" id="id_submit" name="n_submit" value="SUBMIT"/>
+ 
+                <h2>reset</h2>
+                <input type="reset" id="id_reset" name="n_reset" value="RESET"/>
+ 
+                <h2>button</h2>
+                <button id="id_button" name="n_button" value="BUTTON" onclick="alert('javascript'); return false;">BUTTON</button>
+            </fieldset>
+        </form>
+    </body>
+</html>

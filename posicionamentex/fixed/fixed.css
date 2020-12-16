@@ -1,0 +1,12 @@
+/*desplazar de manera fija */
+
+#oso {
+  position: absolute ;
+  top: 50px;
+  left:80px;
+}
+div
+{
+    position: relative ;
+    border: 2px solid red;
+}
