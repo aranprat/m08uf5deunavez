@@ -1,0 +1,76 @@
+.logo{
+   
+    position: relative;
+    width: 10%;
+    height: 60px;
+    float: left;
+top: 20px;
+left: 25px;
+}
+.titulo{
+    position: relative;
+font-weight: bold;
+color: white;
+float: left;
+top: 20px;
+left: 50px;
+font-size: xx-large;
+    }
+.marron{
+
+    background-color:brown;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top:10px;
+
+}
+.rojo{
+
+    background-color:red;
+    position: relative;
+    width: 100%;
+    height: 600px;
+}
+th{
+    background-color:white;
+    
+}
+.beige {
+
+    background-color:beige;
+    position: relative;
+    width: 61%;
+    height: 600px;
+    top:-600px;
+    float: right;
+    right: 260px;
+color: purple;
+}
+
+.banner{
+   
+    position: relative;
+    width: 22.5%;
+    height: 600px;
+    float: right;
+    top:-600px;
+    right: -705px;
+
+}
+.pink{
+    background-color:pink;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    top:-80px;
+    font-size: x-large;
+
+}
+.textofinal {
+    position: relative;
+    right: -400px;
+font-weight: bold;
+text-align: center;
+
+}
