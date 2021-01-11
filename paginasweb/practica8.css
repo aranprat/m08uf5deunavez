@@ -1,0 +1,109 @@
+/*1era part */
+#contain_wrapper
+{
+    width: 900px;
+    margin:auto;
+}
+
+header
+{
+background-color: red;	
+}
+
+header img
+{
+     width: 25%; 
+     height: 50px ; 
+}
+
+#tituloprincipal
+{
+    display: inline-block beige; 
+}
+
+header h1
+{
+    font-family:serif;
+    size: 2.5em ;
+    weight: normal;
+
+}
+
+header h2
+{
+    font-family:Verdana,serif;
+    size: 1.1em ;
+    margin-top: 0px;
+    font-weight:normal;
+}
+
+header img, header h1
+{
+    display: inline-block; 
+    margin-bottom:0px;
+}
+/*2part */
+
+nav
+{
+    display: inline-block; 
+    width: 540px;
+text-align: right;
+background-color: orange;	
+}
+
+nav ul
+{
+    list-style-type: none;  /*saca los puntos de al lado de los items */
+}
+
+nav li
+{
+
+    display: inline-block; 
+    margin-right:15px
+
+}
+
+nav a
+{
+    size: 1.3em ;
+    color:#181818;padding-bottom:3px;
+    text-decoration:none;
+
+}
+
+nav a:hover
+{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+    border-top : 3px solid #760001;
+
+}
+
+#banner_image
+{
+
+}
+
+#banner_description
+{
+
+}
+/* part 3*/ 
+.red_button
+{
+    display: inline-block;
+    height: 25px;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    background: url('../imagenes/imatgespractica8/red_background.png') repeat-x;
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 3px 8px 0px 8px;
+    color: white;
+    text-decoration: none;
+}
