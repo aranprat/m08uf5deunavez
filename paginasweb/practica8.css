@@ -12,7 +12,7 @@ background-color: red;
 
 header img
 {
-     width: 25%; 
+     width: 7%; 
      height: 50px ; 
 }
 
@@ -47,7 +47,7 @@ header img, header h1
 nav
 {
     display: inline-block; 
-    width: 540px;
+    width: 100%;
 text-align: right;
 background-color: orange;	
 }
@@ -67,6 +67,7 @@ nav li
 
 nav a
 {
+    list-style-type: disc;
     size: 1.3em ;
     color:#181818;padding-bottom:3px;
     text-decoration:none;
@@ -83,12 +84,31 @@ nav a:hover
 
 #banner_image
 {
-
+    background: url('../imagenes/imatgespractica8/sanfrancisco.jpg')no-repeat ;
+    margin-bottom :25px;
+    margin-top:5px ;
+    border-radius:5px;
+    position: relative;
+    bottom: 1px;
+    box-shadow:0px,4px,4px orange;
+    border-radius: 0% 0px 5px 5px;
+    color: purple;
+    width: 100%;
+    height: 200px;
 }
 
 #banner_description
 {
-
+    position: absolute;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    color: white;
+    font-size: 1.2em;
+    background-color: rgba(24,24,24,0.8);
+    bottom:1px;
 }
 /* part 3*/ 
 .red_button
@@ -106,4 +126,135 @@ nav a:hover
     padding: 3px 8px 0px 8px;
     color: white;
     text-decoration: none;
+    bottom: 1px;
+}
+
+/* part 4*/
+
+article, aside
+{
+vertical-align: top;
+display: inline-block;
+
+}
+
+article
+{
+    width:625px ;
+    margin-right:8px ;
+
+}
+
+.ico_categorie
+{
+    margin-right:8px ;
+    vertical-align: middle;
+
+} 
+
+
+article p
+{
+    font-size: 0.8em;
+}
+
+
+aside
+{
+    width:235px ;
+ background-color: grey;
+ box-shadow:0px,2px,5px:grey;
+border :5px;
+padding: 10px;
+color:white; 
+font-size: 0.9em;
+}
+
+aside h1
+{
+
+}
+
+#arrow
+{
+top :25px;
+left: 250px;
+
+}
+
+#zozor_picture
+{
+
+}
+
+aside img /*separo les imatges entre si*/
+{
+    margin-right:5px ;
+}
+#autor {
+    text-align: center;
+}
+/* part 5*/
+
+#tweet, #my_pictures, #my_friends
+{
+    vertical-align: top;
+    display: inline-block;
+
+
+}
+
+#tweet
+{
+width: 28%;
+}
+
+#my_pictures
+{
+    width: 35%;
+}
+
+#my_friends
+{
+   margin-right: 2px;
+}
+
+#my_pictures img
+{
+border:1px solid black;
+margin-right´:2px; 
+}
+
+
+#my_friends ul
+{
+width: 31%;
+vertical-align: top;
+display: inline-block;
+margin-top: 0px;
+width: 48%;
+padding-right: 2px;
+list-style-image: url('../imagenes/imatgespractica8/external_link.png');
+}
+
+#my_friends a
+{
+text-decoration: none;
+color:#760001;}
+
+
+footer
+{
+    background:  url('../imagenes/imatgespractica8/top.png') no-repeat top center, url('../imagenes/imatgespractica8/line.png') repeat-x top, url('../imagenes/imatgespractica8/shadow.png') repeat-x top;
+    padding-top: 25px;
+
+}
+
+footer p, footer ul{
+font-size: 0.8em;
+}
+
+footer h1
+{
+    font-size: 1.1em;
 }
