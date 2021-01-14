@@ -228,11 +228,10 @@ margin-right´:2px;
 
 #my_friends ul
 {
-width: 31%;
 vertical-align: top;
 display: inline-block;
 margin-top: 0px;
-width: 48%;
+width: 20%;
 padding-right: 2px;
 list-style-image: url('../imagenes/imatgespractica8/external_link.png');
 }

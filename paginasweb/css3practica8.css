@@ -1,0 +1,130 @@
+#rcorners1 {
+    border-radius: 15%;
+    background: blue;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  #rcorners2 {
+    border-radius: 15%;
+    border: 2px solid blue;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  #rcorners3 {
+        border-radius: 15px 50px 30px 50px; 
+        background: black;
+        background-color: black;
+        background-position: left top;
+        background-repeat: repeat;
+        padding: 20px; 
+        width: 200px;
+        height: 150px;  
+        color: white;
+  }
+
+
+    #rcorners4 { 
+        border-radius: 40px 10px 12px 5px;
+        background-color: red;
+        background-position: left top;
+        background-repeat: repeat;
+        padding: 20px; 
+        width: 300px;
+        height: 150px;  
+        color: black ;
+  }
+
+#colorred {
+    background-color: rgba(253, 207, 207, 0.3);
+}  /* red with opacity */
+
+#colorgreen {
+    background-color: rgba(0, 255, 0, 0.3);
+}  /* green with opacity */
+
+
+#gradiente1 {
+text-align: center;
+background-image: linear-gradient(red, purple);
+height: 40px;
+}  
+#gradiente2 {
+    text-align: left;
+    background-image: linear-gradient(yellow, rgb(4, 190, 236));
+    transform: matrix(3, -0.1, 0, 1, 0, 0);
+}  
+#hnumero1 {
+    text-shadow: 2px 2px;
+  }
+
+#hnumero2{
+    text-shadow: 1px 1px 2px blue, 0 0 25px red;
+  }
+#divrotaciones{
+ 
+  }
+#rotate1{
+    transform: translate(50px, 100px);
+    background-color: rgba(253, 207, 207, 0.3);
+height: 100px;
+width: 100px;
+}
+  
+#rotate2{
+    height: 100px;
+    width: 100px;
+    transform: rotate(20deg);
+    background-color: rgba(255, 0, 0, 0.4);
+  }
+  
+#rotate3{
+    height: 100px;
+    width: 100px;
+    transform: scale(2 2);
+    background-color: rgba(255, 0, 0, 0.6);
+}
+
+#transitiontransformation:hover{
+
+       
+        background: paleturquoise;
+        transition: width 2s, height 2s, transform 2s;
+        transform: rotate(360deg);
+
+}
+#transitiontransformation {
+
+    width: 100px;
+    height: 100px;
+    background: paleturquoise;
+   
+
+}
+
+
+#animacion {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    position: relative;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:green; left:200px; top:0px;}
+    50%  {background-color:yellow; left:200px; top:200px;}
+    75%  {background-color:blue; left:0px; top:200px;}
+}
+#trescolumnas {
+    column-count: 3;
+    column-gap: 50px;
+
+}
