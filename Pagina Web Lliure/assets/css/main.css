@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Ubuntu+Condensed");
+
+
+/* Basic */
+
+	html {
+		box-sizing: border-box;
+	}
+
+	*, *:before, *:after {
+		box-sizing: inherit;
+	}
+
+	@-ms-viewport {
+		width: device-width;
+	}
+
+	body {
+		font-size: 13.5pt;
+		font-family: sans-serif;
+		background-color: #e3e9dc;
+		font-family: 'Ubuntu Condensed', sans-serif;
+		color: black;
+	}
+
+	h1, h2, h3, h4 {
+		color: #007897;
+		font-weight: normal;
+	}
+
+	h1 {
+		text-transform: lowercase;
+	}
+
+
+/* titol */
+.titol {
+	background-image: url(images/banner.jpg);
+	background-size: cover;
+	text-shadow: 0 0 3px #2600ff, 0 0 5px #000000;
+
+}
+.textotitol{
+	background-image: url(images/banner.jpg);
+	background-size: cover;
+
+}
+	#banner {
+		position: relative;
+		width: 100%;
+		padding: 6em 0;
+		border-radius: 10px;
+		background-image: url(images/banneraplicacionsweb.jpg);
+		background-size: cover;
+		text-align: center;
+		box-shadow: inset 0 0 0 20px rgb(3, 1, 1);
+	}
+
+		#banner h2 {
+			font-size: 3.3em;
+			color: rgb(0, 0, 0);
+			text-align: center;
+			letter-spacing: -2px;
+			margin: 0;
+		}
+
+/* text */
+#carouselExampleIndicators img{
+	width: 100%;
+	height: 100%;
+	
+	}
+	#main {
+		background: #fff;
+		padding: 4em 0;
+	}
+	.h2text{
+		font-size: 35pt;
+		text-align: center;
+
+	}
+
+.sage{
+	text-align: center;
+	font-size: 30pt;
+	
+	}
+	
