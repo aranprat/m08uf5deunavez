@@ -1,0 +1,96 @@
+.naveditat{
+    height:60% ;
+}
+
+.etiquetas{
+    color: aliceblue;
+}
+.title{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top: 20px;
+    left: 50% ;
+}
+
+.fonspagvideo{
+    background-image: url(images/bannervideo.jpg);
+    background-repeat: repeat;
+
+ }
+ 
+.videomen{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top: 50px;
+    left: 30% ;
+}
+.videocypher{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top: 700px;
+    left: 30% ;
+}
+.videokilljoy{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top: 1300px;
+    left: 30% ;
+}
+.videoreyna{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top: 2000px;
+    left: 30% ;
+}
+.videosage{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top: 2700px;
+    left: 30% ;
+}
+.omentext{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top: 60px;
+    left: 49% ;
+    color: aqua;
+}
+.cyphertext{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top: 640px;
+    left: 47% ;
+    color: aqua;
+}
+.killjoytext{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top:1320px;
+    left: 47% ;
+    color: aqua;
+}
+.reynatext{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top: 1900px;
+    left: 47% ;
+    color: aqua;
+}
+.sagetext{
+    width: 40%;
+    height:60% ;
+    position: absolute;
+    top: 2650px;
+    left: 47% ;
+    color: aqua;
+}

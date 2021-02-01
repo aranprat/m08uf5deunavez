@@ -1,11 +1,14 @@
-.omen{
-    text-align: center;
-    font-size: 30pt;    
-    position: absolute;
-    top: 50px;
-    left: 40% ;
-    }
-    
- .volver{
-    background-color: black;
-    }
+.omenpag2{
+   text-align: center;
+   font-size: 30pt;    
+   position: absolute;
+   top: 50px;
+   left: 40% ;
+   color: aliceblue  ;  
+   top:200px;
+}
+
+.fonspagsage{
+   background-image: url(images/valorant_fons.jpg);
+   background-repeat: repeat;
+}
