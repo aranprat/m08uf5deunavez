@@ -92,4 +92,23 @@ font-size: 200px;
 	font-size: 30pt;
 	
 	}
+.raze{
+	text-align: center;
+	font-size: 30pt;
+	position: absolute;
+    top: -550px;
+	left: 760px ;
+	width: 50px;
+	height: 60%;
+
+	}
+	.cypher{
+		text-align: center;
+		font-size: 30pt;
+		position: absolute;
+		top: -490px;
+		right: 800px ;
+		width: 10%;
+		height: 55%;
 	
+		}
